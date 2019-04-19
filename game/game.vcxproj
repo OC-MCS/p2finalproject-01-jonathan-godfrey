@@ -146,10 +146,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bomb.cpp" />
+    <ClCompile Include="bombArray.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="enemyFleet.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="gameMgr.cpp" />
+    <ClCompile Include="missile.cpp" />
+    <ClCompile Include="missileArray.cpp" />
+    <ClCompile Include="ship.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\Pictures\Saved Pictures\bomb.png" />
+    <Image Include="enemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bomb.h" />
+    <ClInclude Include="bombArray.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="enemyFleet.h" />
+    <ClInclude Include="gameMgr.h" />
+    <ClInclude Include="missile.h" />
+    <ClInclude Include="missileArray.h" />
+    <ClInclude Include="ship.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
